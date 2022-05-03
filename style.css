@@ -2,6 +2,40 @@
     --main-color: #2B9DF4;
 }
 
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 .f_orbi{
     font-family: 'Orbitron', sans-serif;
+}
+
+.nav-bord{
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.color-white{
+    color: grey;
+}
+
+.nav-icon{
+    transform: rotate(-25deg);
+    font-size: 30px;
+}
+
+.link-nav{
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.bg-moon{
+    /* background: linear-gradient(180deg,rgba(0,0,0,0.4),rgba(255,255,255,0.2),rgba(0,0,0,0.4) 50%) url(./Black/media/moon2.jpg); */
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,139,0.3),rgba(0,0,0,0.1)), url(./Black/media/moon.jpg);
+    height: 70vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
