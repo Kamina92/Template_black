@@ -98,9 +98,15 @@
 
 /* .img-moon2{
     /* background: linear-gradient(315deg,rgba(255, 255, 255, 0.849), rgba(255,255,255,0.3)); */
-    /* background-color: white; */
-} */
+    /* background-color: white; 
+ }*/
 
 .fw-basso{
     font-weight: 1;
+}
+
+.card-logo-title{
+    font-size: 20px;
+    font-weight: 5;
+    border-bottom: 2px solid var(--main-color);
 }
