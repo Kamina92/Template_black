@@ -24,6 +24,10 @@
     color: white;
 }
 
+.color-main{
+    color: var(--main-color);
+}
+
 .color-grey{
     color: grey;
 }
@@ -50,6 +54,10 @@
 
 .pb-200{
     padding-bottom: 200px;
+}
+
+.pt-200{
+    padding-top: 200px;
 }
 
 .head-title{
@@ -86,4 +94,13 @@
 .card-lorem span{
     font-weight: 500;
     font-size: 35px;
+}
+
+/* .img-moon2{
+    /* background: linear-gradient(315deg,rgba(255, 255, 255, 0.849), rgba(255,255,255,0.3)); */
+    /* background-color: white; */
+} */
+
+.fw-basso{
+    font-weight: 1;
 }
