@@ -68,6 +68,13 @@
     font-size: 54px;
     background-color: transparent;
 }
+.headTitleJs{
+    color: darkred;
+    font-size: 84px;
+    background-color: transparent;
+    text-decoration: line-through;
+    text-align: end;
+}
 
 .bg-transaparent{
     background-color: transparent;
